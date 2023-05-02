@@ -11,7 +11,9 @@ public class GHappy {
 
      */
     public static void main(String[] args) {
-        String str="ggyygxx";
+        String str="ggyyg_xx";
+        System.out.println(Character.isLetter(str.charAt(5)));
+
         System.out.println(gHappy(str));
 
     }
