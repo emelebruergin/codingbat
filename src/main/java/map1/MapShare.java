@@ -20,6 +20,7 @@ public class MapShare {
         map.put("d","hi");
         System.out.println(mapShare(map));
         System.out.println(map.get("a"));
+
     }
     public static Map<String, String> mapShare(Map<String, String> map) {
         if (map.containsKey("a")) {
